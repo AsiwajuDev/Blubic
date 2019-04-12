@@ -26,8 +26,12 @@ body,
 
 #banner {
     height: 400px;
-
 }
+
+#btn {
+    margin-top: 50px;
+}
+
 
 #circle1 {
     background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
@@ -534,8 +538,8 @@ label {
 
 #bookrev-head {
     position: absolute;
-    left: -94.62%;
-    right: -93.85%;
+    left: -85.62%;
+    right: -94.85%;
     top: 15%;
     bottom: 0%;
     font-family: Circular Std;
@@ -601,7 +605,7 @@ label {
 }
 
 #button3 {
-     background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
     border-radius: 8px;
     color: #fff;
     font-size: 14px;
@@ -615,4 +619,19 @@ label {
     position: absolute;
     left: 5%;
     right: 5%;
+}
+
+#image-t {
+    position: absolute;
+    left: 8%;
+    right: -93.85%;
+    top: 15%;
+    bottom: 0%;
+}
+
+#dropdownMenuButton {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
