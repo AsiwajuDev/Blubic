@@ -1,0 +1,618 @@
+@import url(https://www.cufonfonts.com/font/circular-std-book);
+
+body,
+.jumbotron {
+    overflow-x: hidden;
+    font-family: 'circular std';
+    width: 100%;
+    background: linear-gradient(336.91deg, #F0F4FD -56.86%, #FFFFFF 126.39%);
+    /*    height: 650px;*/
+}
+
+#body {
+    overflow-y: hidden;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jumbotron {
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#banner {
+    height: 400px;
+
+}
+
+#circle1 {
+    background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
+    position: absolute;
+    left: 5.6%;
+    right: 85.6%;
+    top: 4.93%;
+    bottom: 85.84%;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+}
+
+#circle2 {
+    position: absolute;
+    height: 73px;
+    width: 73px;
+    left: 71.2%;
+    right: 9.41%;
+    top: 20.42%;
+    bottom: 80.62%;
+    background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+    transform: rotate(-15.82deg);
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#circle3 {
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    left: 105px;
+    top: 157px;
+    background: linear-gradient(73.12deg, #25CED1 -19.51%, #34E6E9 58.02%, #6AFCFF 138%);
+    border-radius: 50%;
+    padding: 30px;
+}
+
+@media screen and (max-width: 900px) {}
+
+#head {
+    font-family: Circular Std;
+    font-size: 32px;
+    line-height: normal;
+    text-align: center;
+    color: #384F7D;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#line {
+    font-family: Circular Std;
+    font-size: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(56, 79, 125, 0.8);
+    top: 60.59%;
+    bottom: 33.99%;
+}
+
+#lines1 {
+    position: absolute;
+    width: 36px;
+    height: 12px;
+    left: 60px;
+    top: 170px;
+    background: #8EF15C;
+    border-radius: 11111px;
+}
+
+#lines2 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 103px;
+    top: 170px;
+    bottom: 30px;
+    background: #8EF15C;
+    opacity: 0.25;
+    border-radius: 50%;
+}
+
+#lines3 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 125px;
+    top: 170px;
+    background: #8EF15C;
+    opacity: 0.25;
+    border-radius: 50%;
+}
+
+#circle4 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 267px;
+    top: 150px;
+    background: linear-gradient(125.58deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#link a {
+    position: absolute;
+    left: 36.12%;
+    right: 36.12%;
+    bottom: -99%;
+    font-family: Circular Std;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    text-decoration: underline;
+    color: #445984;
+}
+
+#circle5 {
+    height: 271px;
+    width: 271px;
+    position: absolute;
+    left: -22.17%;
+    right: 49.89%;
+    top: 99.31%;
+    bottom: -84.69%;
+    background: linear-gradient(228.76deg, rgba(45, 238, 249, 0.15) -34.42%, rgba(224, 132, 241, 0.15) 127.18%);
+    transform: rotate(-15.82deg);
+    border-radius: 50%;
+}
+
+#pbody {
+    margin-bottom: 30px;
+}
+
+#link {
+    margin-top: 20px;
+}
+
+#tcircle1 {
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    left: 9.87%;
+    right: 80%;
+    top: 11.95%;
+    bottom: 83.37%;
+    background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+#tcircle2 {
+    position: absolute;
+    left: 54.67%;
+    right: 10.06%;
+    top: -31.03%;
+    bottom: 99.74%;
+    background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+    transform: rotate(-15.82deg);
+    height: 133px;
+    width: 133px;
+    border-radius: 50%;
+}
+
+#tcircle3 {
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    left: 102px;
+    top: 170px;
+    padding: 60px;
+    background: linear-gradient(141.64deg, #FFF17C -3.59%, #FF8B8E 118.04%);
+    border-radius: 50%;
+}
+
+#tlines2 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 60px;
+    top: 175px;
+    background: #8EF15C;
+    opacity: 0.25;
+    border-radius: 50%;
+}
+
+#tlines1 {
+    position: absolute;
+    width: 36px;
+    height: 12px;
+    left: 79px;
+    top: 175px;
+    background: #8EF15C;
+    border-radius: 11111px;
+}
+
+#tlines3 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 122px;
+    top: 175px;
+    background: #8EF15C;
+    opacity: 0.25;
+    border-radius: 50%;
+}
+
+#log-circle5 {
+    position: absolute;
+    width: 279px;
+    height: 279px;
+    left: -57px;
+    top: -139px;
+    background: linear-gradient(315deg, rgba(255, 255, 255, 0.61) 3.5%, rgba(121, 171, 252, 0.61) 93.61%, rgba(96, 108, 255, 0.61) 147.83%);
+    border-radius: 50%;
+}
+
+#log-circle3 {
+    position: absolute;
+    height: 146px;
+    width: 146px;
+    position: absolute;
+    left: 33.33%;
+    right: 30.4%;
+    top: 10.25%;
+    bottom: 75%;
+    border-radius: 50%;
+    background: linear-gradient(147.47deg, #FEB665 24.48%, #F66EB4 118.65%);
+    padding: 30px;
+}
+
+#log-pbody {
+    margin-top: 180px;
+}
+
+#log-circle2 {
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    left: 68.13%;
+    right: 7.03%;
+    top: 93.62%;
+    background: linear-gradient(228.76deg, #2DEEF9 -34.42%, #E084F1 127.18%);
+    transform: rotate(-15.82deg);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(68, 89, 132, 0.3);
+    padding: 0;
+}
+
+.form-control {
+    height: 48px;
+}
+
+#form {
+    background: transparent;
+    z-index: -1;
+}
+
+#inputEmail3,
+#inputPassword3 {
+    box-shadow: 0 0 10px 0;
+    border-bottom: 3px solid #00D23A;
+}
+
+#inputPassword4 {
+    box-shadow: 0 0 10px 0;
+    border-bottom: 3px solid rgba(68, 89, 132, 0.4);
+}
+
+#button {
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 180px;
+}
+
+#log-banner {
+    overflow-y: hidden;
+}
+
+#log-link a {
+    line-height: normal;
+    text-align: center;
+    color: #445984;
+    text-decoration: underline;
+}
+
+#log-link p {
+    line-height: normal;
+    text-align: center;
+    color: #445984;
+}
+
+#rev-circle3 {
+    position: absolute;
+    height: 146px;
+    width: 146px;
+    position: absolute;
+    left: 33.33%;
+    right: 30.4%;
+    top: 10.25%;
+    bottom: 75%;
+    border-radius: 50%;
+    background: linear-gradient(117.45deg, rgba(114, 255, 153, 0.6) -91.36%, rgba(0, 210, 58, 0.6) 232.4%);
+    padding: 30px;
+}
+
+#button1 {
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 130px;
+    margin-bottom: 75px;
+}
+
+#rev-head {
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(56, 79, 125, 0.8);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+#img1 {
+    width: 95px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+#img-line {
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    color: #384F7D;
+    margin-bottom: 5px;
+}
+
+#img-para {
+    font-size: 10px;
+    line-height: normal;
+    text-align: center;
+    color: rgba(56, 79, 125, 0.8);
+}
+
+#book-circle3 {
+    position: absolute;
+    height: 246px;
+    width: 816px;
+    position: absolute;
+    left: -38.93%;
+    right: -58.68%;
+    top: -35.59%;
+    bottom: 81.28%;
+    border-radius: 50%;
+    background: linear-gradient(210.28deg, #FEB665 37.28%, #F66EB4 76.65%);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+#body-list {
+    overflow-x: hidden;
+}
+
+#search {
+    position: absolute;
+    left: 4.62%;
+    top: 58%;
+    bottom: 0%;
+    height: 50px;
+    width: 90%;
+    background: #FFFFFF;
+    box-shadow: 4px 12px 25px rgba(71, 55, 255, 0.08);
+    border-radius: 8px;
+}
+
+#book-head {
+    position: absolute;
+    left: -94.62%;
+    right: -93.85%;
+    top: 25%;
+    bottom: 0%;
+    font-family: Circular Std;
+    font-size: 29px;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#book-pbody {
+    margin: 0 20px;
+    margin-top: 200px;
+}
+
+#cards {
+    height: 180px;
+    padding: 15px 30px;
+    margin: 30px 10px;
+    margin-top: 0;
+    box-shadow: 0 0 5px 0;
+}
+
+.card-body {
+    padding: 0;
+    padding-left: 20px;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-size: 26px;
+    line-height: normal;
+    color: #384F7D;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: normal;
+    color: rgba(56, 79, 125, 0.8);
+    margin-bottom: 40px;
+}
+
+
+
+#star {
+    color: #FFD381;
+}
+
+.card-img {
+    height: 150px;
+}
+
+#card-text {
+    margin-bottom: 75px;
+}
+
+#button2 {
+    background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 125px;
+    margin-bottom: 75px;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: -65px;
+}
+
+#book-row {
+    padding: 0 20px;
+}
+
+#imge {
+    height: 205px;
+    left: 29.15px;
+    top: 130.15px;
+}
+
+#bookrev-circle3 {
+    position: absolute;
+    height: 246px;
+    width: 816px;
+    position: absolute;
+    left: -38.93%;
+    right: -58.68%;
+    top: -18%;
+    bottom: 81.28%;
+    border-radius: 50%;
+    background: linear-gradient(210.28deg, #FEB665 37.28%, #F66EB4 76.65%);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#bookrev-head {
+    position: absolute;
+    left: -94.62%;
+    right: -93.85%;
+    top: 15%;
+    bottom: 0%;
+    font-family: Circular Std;
+    font-size: 29px;
+    line-height: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#bookrev-detail {
+    position: absolute;
+    top: 210px;
+}
+
+.card-texts {
+    font-size: 16px;
+    line-height: normal;
+    color: rgba(56, 79, 125, 0.8);
+}
+
+.card-titles {
+    text-transform: capitalize;
+    font-size: 26px;
+    line-height: normal;
+    color: #384F7D;
+    margin: 0;
+}
+
+#stars {
+    color: #445984;
+}
+
+.card-textt {
+    font-size: 16px;
+    line-height: normal;
+    color: rgba(56, 79, 125, 0.8);
+    margin: 0;
+}
+
+#detail {
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+.card-textts {
+    font-size: 20px;
+    line-height: 22px;
+    color: rgba(56, 79, 125, 0.8);
+    margin-bottom: 20px;
+}
+
+#links a {
+    font-family: 'Circular Std';
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: underline;
+    color: #445984;
+}
+
+#rate {
+    margin-top: 30px;
+}
+
+#button3 {
+     background: linear-gradient(166.04deg, #BAFB67 -5.37%, #00D23A 196.64%);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 190px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+}

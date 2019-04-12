@@ -1,0 +1,107 @@
+<!Doctype>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Grid</title>
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron" id="log-banner">
+            <div class="row">
+                <div class="col-xs col-sm col-md-4 col-lg-4"></div>
+                <div class="col-xs col-sm col-md-4 col-lg-4 text-center" id="body-list">
+                    <div class="circle">
+                        <span class="dot" id="book-circle3"> </span>
+                        <h1 id="book-head">Thank You!</h1>
+                        <form class="form-inline my-2 my-lg-0 text-center">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                        </form>
+                    </div>
+                    <div id="book-pbody">
+                        <h6 id="rev-head" class="text-left">BOOKS REVIEWED BY YOU</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs col-sm col-md-4 col-lg-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs col-sm col-md-4 col-lg-4"></div>
+            <div class="col-xs col-sm col-md-4 col-lg-4 text-center">
+                <div class="card mb-3 text-left" id="cards">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="asset/img/book4.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Remote: Office Not Required</h5>
+                                <p class="card-text">Jason Fried</p>
+                                <p class="card-text"><i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="far fa-star"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 text-left" id="cards">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="asset/img/book5.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Papillon</h5>
+                                <p class="card-text" id="card-text">Henri Charriere</p>
+                                <p class="card-text"><i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="far fa-star"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 text-left" id="cards">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="asset/img/book6.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">the dark tower: the gunslinger</h5>
+                                <p class="card-text">Stephen King</p>
+                                <p class="card-text"><i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="fas fa-star" id="star"></i>
+                                    <i class="far fa-star"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row text-center">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn" id="button2">ADD BOOK REVIEW </button>
+                    </div>
+                </div>
+                <div id="rev-line">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs col-sm col-md-4 col-lg-4"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
