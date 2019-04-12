@@ -29,7 +29,7 @@ body,
 }
 
 #btn {
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 #circle1 {
@@ -633,11 +633,6 @@ label {
     color: #000;
     border: 1px solid #000;
     border-radius: 5px;
-}
-
-
-
-
 }
 
 #body-list2 {
